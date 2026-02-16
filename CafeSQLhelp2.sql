@@ -99,4 +99,5 @@ WHERE ItemID IN (
      AND t1.ItemID > t2.ItemID
 );
 
--- This self join statement is used to delete duplicate rows based on Item name + price per unit, while only the smallest itemID remains
+
+-- This statement is used to delete duplicate rows based on Item name + price per unit, while only the smallest itemID remains
